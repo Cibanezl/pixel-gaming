@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cyber Quest 2077",
+    "precioNormal": 45000,
+    "precioOferta": 34990,
+    "descripcion": "Juego de acción y RPG futurista.",
+    "imagen": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=250&h=150&fit=crop"
+  },
+  {
+    "id": 2,
+    "nombre": "Overdrive Horizon",
+    "precioNormal": 35000,
+    "precioOferta": 29990,
+    "descripcion": "Simulador de carreras de mundo abierto.",
+    "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=250&h=150&fit=crop"
+  },
+  {
+    "id": 3,
+    "nombre": "Stellar Fleet",
+    "precioNormal": 30000,
+    "precioOferta": 24990,
+    "descripcion": "Estrategia espacial en tiempo real.",
+    "imagen": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=250&h=150&fit=crop"
+  }
+]

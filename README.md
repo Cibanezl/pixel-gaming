@@ -1,16 +1,38 @@
-# React + Vite
+# 🎮 PixelGaming React Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web de e-commerce desarrollada con **React** y **Vite** para la **Evaluación Sumativa 3 (Semana 8)** de la asignatura **Desarrollo Frontend I (PFY2201)** en Duoc UC.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Demo en Vivo
+Puedes probar la aplicación desplegada en línea en el siguiente enlace:  
+👉 **[PixelGaming en GitHub Pages](https://cibanezl.github.io/pixel-gaming/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
+- **React 18** (Componentes funcionales y Hooks)
+- **Vite** (Build tool y entorno de desarrollo)
+- **JavaScript (ES6+)**
+- **CSS3** (Estilos globales e interfaz responsiva)
+- **GitHub Pages** (Despliegue continuo con `gh-pages`)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚙️ Funcionalidades Implementadas
+- **Carga Dinámica de Datos (`useEffect`):** Simulación de petición asíncrona mediante `fetch` cargando el catálogo desde `public/productos.json`.
+- **Gestión de Estado Global (`useState`):** Manejo dinámico del carrito de compras y del catálogo de videojuegos.
+- **Formulario Interactivo:** Componente `AddProductForm` que permite publicar nuevos juegos al catálogo en tiempo real.
+- **Renderizado Condicional:** 
+  - Estado de carga (*"Cargando catálogo..."*).
+  - Estado del carrito vacío (*"El carrito está vacío..."*).
+  - Estado del botón dinámico (*"Agregar al Carrito"* / *"En el carrito ✓"*).
+
+---
+
+## 💻 Ejecución Local
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/Cibanezl/pixel-gaming.git](https://github.com/Cibanezl/pixel-gaming.git)
+   cd pixel-gaming
